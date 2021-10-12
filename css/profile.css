@@ -1,0 +1,73 @@
+section,
+section .info,
+form{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+section .ProfileImg {
+    height: 200px;
+    width: 200px;
+    margin-top: 3px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+}
+
+div h1{
+    font-size: 25px;
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 20px;
+}
+input[type="file"] {
+    display: none;
+}
+.Custom-File-Upload {
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    border: 3px solid #222;
+    margin: auto;
+}
+
+button{
+    background: #ffcc66;
+    padding: 5px 20px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 6px;
+    margin:10px auto;
+    height: auto;
+    width: auto;
+}
+
+
+#progress-wrp {
+    border: 1px solid #000;
+    padding: 1px;
+    position: relative;
+    height: 30px;
+    border-radius: 3px;
+    margin: 10px;
+    text-align: left;
+    background: #fff;
+    box-shadow: inset 1px 3px 6px rgba(0, 0, 0, 0.12);
+        }
+#progress-wrp .progress-bar {
+    height: 100%;
+    border-radius: 3px;
+    background-color: #ffcc66;
+    width: 0;
+    box-shadow: inset 1px 1px 10px rgba(0, 0, 0, 0.11);
+    }
+
+#progress-wrp .status {
+    top: 3px;
+    left: 50%;
+    position: absolute;
+    display: inline-block;
+    color: #000000;
+    }
+    
